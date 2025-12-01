@@ -76,6 +76,7 @@ const USER_CONFIG = {
     // 2. ⚡ 模型选择
     // "gemini-flash-lite-latest": 速度最快，适合拼手速 (推荐)
     // "gemini-flash-latest": 更加智能，适合题目稍难的问卷
+    // 需要注意的是，Google随时可能更改模型名称，因此务必参考Google官方的API文档
     MODEL_NAME: "gemini-flash-lite-latest",
 
     // 3. 🎭 定义你的人设 (AI 会扮演这个角色去答题)
@@ -126,7 +127,7 @@ const USER_CONFIG = {
 *   **Q: 为什么没反应？**
     *   A: 请按 `F12` 打开控制台 (Console)，看是否有红色报错。通常是因为网络无法连接 Google API，或者 Key 填错了。
 *   **Q: 填空题胡说八道怎么办？**
-    *   A: 请修改配置里的 `PERSONA`，把人设写得更具体一点（比如指定具体的年级、专业、居住地），或者将模型改为 `gemini-2.5-flash`。
+    *   A: 请修改配置里的 `PERSONA`，把人设写得更具体一点（比如指定具体的年级、专业、居住地），或者改为更强的模型，比如 `gemini-flash-latest`。
 *   **Q: 遇到滑块验证码怎么办？**
     *   A: 脚本无法破解验证码。建议将 `AUTO_SUBMIT` 设为 `false`，最后一步由你亲自点击提交，如果弹出滑块，手动划一下即可。
 
