@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         问卷星AI自动填写 (Gemini版)
-// @version      1.3.1
+// @name         问卷星AI自动填写
+// @version      1.3.2
 // @description  利用 Google Gemini 模型自动回答问卷，支持新版VM页面、协议自动勾选、手机号强力填充、漏题自动定位高亮。
 // @author       ZainCheung (原作者) & kelryry (AI适配版作者)
 // @license      GPL-3.0-only
