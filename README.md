@@ -142,3 +142,11 @@ const USER_CONFIG = {
 
 感谢 Google Gemini 提供的强大 API 能力。
 ```
+
+## ❤️以此致谢
+
+每一行代码都凝聚了心血。
+如果这个仓库对您有启发或帮助，请不吝赐予一个 **Star 🌟**。
+这看似微小的举动，对开发者来说却是巨大的鼓励！💪
+
+If this project helps you, please give a ⭐️!
